@@ -14,16 +14,18 @@
 .icon-star:before { content: "\ed1d"; }
 .icon-person:before { content: "\ec88"; }
 .icon-librarybooks:before { content: "\ebf9"; }
-.icon-education:before { content: "\ebca"; }
+.icon-education:before { content: "\eaa2"; }
 .icon-create:before { content: "\eaf8"; }
 .icon-call:before { content: "\eab6"; }
-.icon-weixin:before { content: "\3488"; }
+.icon-weixin:before { content: "\ea95"; }
 .icon-build:before { content: "\eaa2"; }
 .icon-edit:before { content: "\eb31"; }
 .icon-flower:before { content: "\ec0a"; }
 .icon-playlistadd:before { content: "\ecae"; }
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
+.icon-tect:before { content: "\eb6e"; }
+
 
 span {
     display: inline-block;
@@ -170,11 +172,9 @@ progress::-moz-progress-value {
 }
 
 .weixin{
-    margin-top: 20px;
     background-color: #e0eaf0;   
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
