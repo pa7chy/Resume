@@ -5,7 +5,7 @@
     url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+/* 反正这儿也没人看，我写什么都可以咯，这都快10年没用的CSS了，以下都是瞎弄的 */
 
 .icon-work:before { content: "\eac9"; }
 .icon-project:before { content: "\eaf4"; }
@@ -191,11 +191,11 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-image:url('me.jpg');
+    background-size: 100%;
     background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
+    /* border-radius:50%; */
+    border:1px solid #607d8b;
     width:160px;
     height:160px;
 }
