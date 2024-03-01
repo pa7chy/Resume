@@ -219,11 +219,13 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: 3100px;
     background-color: white;
 
 }
-
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
 .side {
     position: absolute;
     width: 360px;
